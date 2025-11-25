@@ -186,3 +186,23 @@ Context: Organisational , Repo, Environmental variables
     Define a custom action in action.yml inside .github/actions
 
 Publish your action - push to use across your repos
+
+  # RESUSE WORKFLOWS
+   Calling 1 workflow from another workflow
+   workflow_call:
+   calling_reusable:
+
+   Feature  Resusablw workflow Compoisite action
+    Scope    entire workflow    A group of steps within a job
+    containts jobs? yes         no
+    log visibility   Every job logged individually   
+
+
+
+    limitations
+      4 levels on caller
+      no env but pass inputs
+
+
+    
+    
