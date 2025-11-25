@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      - name: "greetings_message"
-       run: "echo 'Welcome code owner"
+       run: echo 'Welcome code owner'
