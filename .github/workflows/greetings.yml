@@ -2,8 +2,6 @@ name: greetings coder
 
 on:
  pr:
-   branches:
-    - *
 
 jobs:
   welcome_coder:
