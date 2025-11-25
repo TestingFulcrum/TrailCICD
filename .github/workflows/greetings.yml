@@ -1,0 +1,13 @@
+name: greetings coder
+
+on:
+ pr:
+   branches:
+    - *
+
+jobs:
+  welcome_coder:
+    runs-on: ubuntu-latest
+    steps:
+     -name: "greetings_message"
+      run: "echo 'Welcome code owner"
