@@ -1,7 +1,7 @@
 name: greetings coder
 
 on:
- pr:
+ pull_request:
 
 jobs:
   welcome_coder:
